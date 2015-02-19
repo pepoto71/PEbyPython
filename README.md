@@ -1,3 +1,3 @@
 # PEbyPython
 Programming for everybody(Python)
-Show my experiance wuth this great and funny course.
+Show my experiance with this great and funny course.
