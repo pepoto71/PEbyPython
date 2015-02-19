@@ -6,7 +6,7 @@ def print_hello(times):
 #return string
 def return_hello(times):
     return times*" hello "
-#to swap to objects
+#to swap two objects
 def swap(a,b):
     return(b,a)
 def computepay(hours,rate):
@@ -14,11 +14,10 @@ def computepay(hours,rate):
         if hours>40:
             return (hours-40)*rate*1.5+40*rate
         else:
-            return hours*rate
-        end
+            return hours*rate        
     else:
-        return False    
-    end
+        return False  
+    
 def inp_hours():
     inp=raw_input("Enter hours: ")
     try:
@@ -51,3 +50,4 @@ print rate
 payment=computepay(hours, rate)
 print payment if payment else "Uncorrect input values"
 
+#end of week4
