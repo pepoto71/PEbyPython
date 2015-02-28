@@ -1,7 +1,7 @@
 def censor(text,word):
     '''
     Replace some sequence from given text 
-    with */using state mashines/
+    with */using state mashines/ in linear time O(n)
     '''
     states=len(word)
     current_state=0
